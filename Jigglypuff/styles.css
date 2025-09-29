@@ -177,3 +177,17 @@ footer {
         font-size: 1rem;
     }
 }
+
+/* Contenedor para el audio, centrado y con estilo Jigglypuff */
+.audio-container {
+    margin-top: 15px;
+    background: #ffd5e8;
+    /* rosa pastel */
+    border: 2.5px solid #f2a1b8;
+    border-radius: 20px;
+    padding: 8px 20px;
+    box-shadow: 0 6px 15px rgba(212, 93, 127, 0.3);
+    width: fit-content;
+    margin:  20px;
+}
+
