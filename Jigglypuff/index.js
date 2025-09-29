@@ -1,4 +1,4 @@
-//let pokemon = "jigglypuff";
+/*//let pokemon = "jigglypuff";
 const startList = document.getElementById("stats");
 const ruido = document.getElementById("ruido");
 const input = document.getElementById("pokemonInput")
@@ -18,5 +18,5 @@ btn.addEventListener("click", () => {
         });
     })
     .catch((error) => console.error("Error al obtener los datos:", error));
-})
+})*/
 
