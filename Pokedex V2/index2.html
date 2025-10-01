@@ -1,32 +1,35 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pokédex</title>
-  <link rel="stylesheet" href="index2.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="index2.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  <div class="container">
-    <h2 class="title">Pokédex</h2>
+    <div class="container">
+        <h2 class="title">Pokédex</h2>
 
-    <div class="pokedex-frame">
-      <img src="" alt="foto" id="fotos">
+        <div class="pokedex-frame">
+            <img src="" alt="foto" id="fotos">
+        </div>
+
+        <div class="controls">
+            <input type="text" id="pokemonInput" placeholder="Escribe un Pokémon" />
+            <button id="buscarBtn" class="pokedex-btn">
+                <img src="images/pokedex.png" alt="Buscar" />
+            </button>
+        </div>
+
+        <ul id="stats"></ul>
+
+        <audio id="ruido" src="" controls></audio>
     </div>
 
-    <div class="controls">
-      <input type="text" id="pokemonInput" placeholder="Escribe un Pokémon" />
-      <button id="buscarBtn" class="pokedex-btn">
-        <img src="images/pokedex.png" alt="Buscar" />
-      </button>
-    </div>
-
-    <ul id="stats"></ul>
-
-    <audio id="ruido" src="" controls></audio>
-  </div>
-
-  <script src="index.js"></script>
+    <script src="index.js"></script>
 </body>
+
 </html>
