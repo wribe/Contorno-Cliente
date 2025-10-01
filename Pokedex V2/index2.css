@@ -21,7 +21,7 @@ body {
   box-shadow: 0 0 15px #ffcc00;
 }
 
-.title {
+.title, h2 {
   text-align: center;
   color: #d62828;
   text-shadow: 2px 2px #000;
@@ -29,7 +29,7 @@ body {
   font-size: 1.5rem;
 }
 
-.pokedex-frame {
+.pokedex-frame, #fotos {
   background: radial-gradient(circle, #ffffff 60%, #ccc 100%);
   border: 4px solid #000;
   border-radius: 12px;
@@ -48,7 +48,7 @@ body {
   object-fit: contain;
 }
 
-.controls {
+.controls, .buscar {
   display: flex;
   justify-content: center;
   align-items: center;
